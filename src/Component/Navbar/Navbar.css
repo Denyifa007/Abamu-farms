@@ -1,0 +1,9 @@
+.abamulogo{
+    width: 10rem;
+    height: 10rem;
+    padding-top: 1rem;
+}
+.navbar>*:hover{
+    color: green;
+
+}

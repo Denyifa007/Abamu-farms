@@ -1,0 +1,26 @@
+.p-wrapper .swiper {
+    width: 100%;
+    height: 70%;
+}
+.p-wrapper .swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p-wrapper .swiper-pagination-bullet-active{
+    background: black;
+}
+
+.product-slider img{
+    width: 40rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+    border-radius: 19px;
+}
+.product-slider{
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.product-slider .swiper-slide{
+    width: 10rem;
+}
