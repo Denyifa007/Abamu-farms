@@ -1,9 +1,15 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import ScrollToTop from "react-scroll-to-top";
 
 const Contact = () => {
   return (
+    
     <div name='contact' className=' w-full h-screen flex justify-center items-center p-4'>
+         <ScrollToTop smooth top= '20'
+         width='50p'
+         color='green' 
+          />
         <form action="https://getform.io/f/d9ebf626-2052-4681-95c5-d39d0831a768" method='POST' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-green-600 text-black-300'>Contact</p>
@@ -19,6 +25,6 @@ const Contact = () => {
         </form>
     </div>
   )
-}
+};
 
 export default Contact
