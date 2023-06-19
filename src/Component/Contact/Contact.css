@@ -1,0 +1,23 @@
+.whatsapp-container {
+    position: fixed;
+    z-index: 1;
+}
+
+.whatsapp-container a {
+    text-decoration: none;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    display: block;
+    background-color: #25d366;
+    width: 65px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsappi{
+    font-size: 2rem;
+    color: white;
+}

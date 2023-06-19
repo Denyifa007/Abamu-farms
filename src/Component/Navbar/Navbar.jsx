@@ -4,7 +4,6 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 import abamufarmlogo from '../../Assets/WhatsApp Image 2023-06-09 at 18.01.45 (1).jpeg'
 import './Navbar.css'
-import {BiChevronsUp} from 'react-icons/bi'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)

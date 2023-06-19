@@ -1,6 +1,8 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import ScrollToTop from "react-scroll-to-top";
+import {BsWhatsapp} from 'react-icons/bs'
+import './Contact.css'
 
 const Contact = () => {
   return (
@@ -10,6 +12,9 @@ const Contact = () => {
          width='50p'
          color='green' 
           />
+    <div class="whatsapp-container">
+        <a href= "https://wa.me/2348062219288" target="_blank"><BsWhatsapp className='whatsappi' /></a>
+    </div>
         <form action="https://getform.io/f/d9ebf626-2052-4681-95c5-d39d0831a768" method='POST' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-green-600 text-black-300'>Contact</p>
