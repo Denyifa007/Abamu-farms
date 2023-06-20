@@ -10,7 +10,7 @@ import {motion} from 'framer-motion'
 const Home = () => {
     const transition ={ duation: 2, type: 'spring'}
   return (
-    <div name='home' className='py-20 px-5  flex h-screen home'>
+    <div name='home' className=' mx-auto flex h-screen home'>
         {/* leftside  */}
         <div className='w-[800px] mx-10 px-4 flex flex-col justify-center h-full first-content homebody'>
             <p className='text-[#53ec86] text-8xl font-bold welcome'>Welcome<span className='text-2xl text-[black]'>To</span></p>
@@ -26,9 +26,9 @@ const Home = () => {
             </div>
 
         </div>
-        <div className='w-[600px] mx-10 px-4 flex flex-col justify-center h-full home2'>
+        <div className=' px-5 flex flex-col justify-center h-full home2'>
             {/* rightside */}
-            <div className='w-[600px] mx-1 px-4 flex flex-col justify-center imgdiv'>
+            <div className='w-[600px] mx-1 px-4 justify-center imgdiv'>
             {/* right div  */}
             <motion.img
             initial={{right: '4%'}}
