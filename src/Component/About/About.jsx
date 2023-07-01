@@ -6,7 +6,7 @@ import {FiMail} from 'react-icons/fi'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen -my-20 text-black-300 md:-mx-1 about '>
+    <div name='about' className='w-full h-screen -my-2 text-black-300 md:-mx-1 about '>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
