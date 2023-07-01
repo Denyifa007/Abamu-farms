@@ -18,7 +18,7 @@ const Contact = () => {
         <form action="https://getform.io/f/d9ebf626-2052-4681-95c5-d39d0831a768" method='POST' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-green-600 text-black-300'>Contact</p>
-                <p className='text-black-300 py-4'>//Submit the form below to send us an Email - <span className='text-red-700' style={{cursor:'pointer'}}>abamuenterprise@gmail.com</span> </p>
+                <p className='text-black-300 py-4'>//Submit the form below or send us an Email - <a href="mailto:abamuenterprise@gmail.com"> <span className='text-red-700' style={{cursor:'pointer'}}>abamuenterprise@gmail.com</span> </a></p>
 
             </div>
             <input className='bg-[#82f278] p-2' type="text" placeholder='Name' name='name' />

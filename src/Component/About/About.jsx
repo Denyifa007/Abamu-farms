@@ -1,5 +1,8 @@
 import React from 'react';
 import './About.css'
+import {BsInstagram} from 'react-icons/bs'
+import {BsFacebook} from 'react-icons/bs'
+import {FiMail} from 'react-icons/fi'
 
 const About = () => {
   return (
@@ -18,8 +21,19 @@ const About = () => {
               <p>Hello. This is Abamu Farms. Please take a look around.</p>
             </div>
             <div>
-              <p>Abamu Farms boasts a thriving livestock division. The farm maintains a variety of livestock, including poultry, and pigs, and places great emphasis on animal welfare and ethical farming practices.Abamu Farms is a unique Agricultural platform, that is specialized in poultry farming and other farm products located in Yenegoa Peace Avenue Tombia Imiringi Road</p>
+              <p>Abamu Farms boasts a thriving livestock division. The farm maintains a variety of livestock, 
+                including poultry, and pigs, and places great emphasis on animal welfare and ethical farming 
+                practices.Abamu Farms is a unique Agricultural platform, that is specialized in poultry farming 
+                and other farm products located in Yenegoa Peace Avenue Tombia Imiringi Road</p>
+              
                 
+            </div>
+            <div className='flex flex-row gap-5'>
+
+            <a href="https://www.instagram.com/abamufarms/"><BsInstagram size={45} color='orangered'/></a>
+            <a href="/"><BsFacebook size={45} color='blue'/></a>
+            <a href="mailto:abamuenterprise@gmail.com"><FiMail size={45} color='green'/></a>
+
             </div>
           </div>
       </div>
